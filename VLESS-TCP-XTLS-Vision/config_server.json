@@ -17,12 +17,12 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 16387, // 端口
+            "port": 443
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "", // 用户ID
+                        "id": "77a673f7-1f19-4b96-d9ff-c774055becd2"
                         "flow": "xtls-rprx-vision"
                     }
                 ],
@@ -34,8 +34,8 @@
                 "tlsSettings": {
                     "certificates": [
                         {
-                            "certificateFile": "/etc/ssl/private/fullchain.cer", // 证书
-                            "keyFile": "/etc/ssl/private/private.key" //私钥
+                            "certificateFile": "/root/ygkkkca/cert.crt",
+                            "keyFile": "/root/ygkkkca/private.key"
                         }
                     ]
                 }
